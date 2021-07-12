@@ -1,0 +1,18 @@
+
+Guia de uso para Tabla de distribucion de frecuencia:
+
+tdf = Tdf(50) argumento n de datos
+ci = [21, 24, 27, 30, 33, 36, 39] Clases de intervalo
+fi = [4,8,12,15,6,5] Frecuencias absolutas simples ordenadas
+tdf.setDatos(ci, fi)
+tdf.printDatos() #Imprime todos los datos media, moda, varianza etc
+
+Metodos para cuantiles:
+
+print(tdf.cuartil(1))
+print(tdf.decil(6))
+print(tdf.percentil(90))
+
+
+
+
